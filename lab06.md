@@ -1,26 +1,23 @@
----
-title: "Lab 06 - Covid Times"
-author: "Insert your names here"
-date: "Insert date here"
-output: github_document
----
+Lab 06 - Covid Times
+================
+Insert your names here
+Insert date here
 
 # Lab 06
 
 ## Load packages and data
 
-```{r load-packages, message = FALSE}
+``` r
 library(reshape2)
 library(tidyverse)
 library(lubridate)
 ```
 
-
 Add exercise headings, chunks, etc, as needed.
 
 ## Ex7
 
-```{r rowvar-func}
+``` r
 row_var = function(matrix, na_rm = FALSE) {
   apply(matrix, 1, var, na.rm = na_rm)
 }

@@ -15,6 +15,13 @@ library(tidyverse)
 library(lubridate)
 ```
 
+```{r}
+data = readr::read_csv(gsub("[ \n]", "",
+  "https://urmc-bst.github.io/
+   bst430-fall2021-site/hw_lab_instruction/lab06-covid-times/data/us-states.csv"))
+```
+
+
 
 Add exercise headings, chunks, etc, as needed.
 
